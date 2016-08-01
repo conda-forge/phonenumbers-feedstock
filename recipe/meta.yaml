@@ -1,4 +1,4 @@
-{% set version = "7.4.3" %}
+{% set version = "7.5.1" %}
 
 package:
   name: phonenumbers
@@ -7,7 +7,7 @@ package:
 source:
   fn: phonenumbers-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/p/phonenumbers/phonenumbers-{{ version }}.tar.gz
-  sha256: 0c15249588905f35e0efaa676c4d2b511a8dd5efa673765ac6b5469cb03f8d9a
+  sha256: df81c483779011aa6f53c73c619723e2840ebb35d1cab01c071833c552b38d61
 
 build:
   number: 0
