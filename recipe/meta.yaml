@@ -1,16 +1,21 @@
-{% set version = "7.5.1" %}
+{%set name = "phonenumbers" %}
+{%set version = "7.6.0" %}
+{%set compress_type = "tar.gz" %}
+{%set hash_type = "sha256" %}
+{%set hash_val = "731b85370e7f14a4e3e6e0abdf836351739d8f17454c7ba0a0253bb81727fa4a" %}
+{%set build_num = "0" %}
 
 package:
-  name: phonenumbers
+  name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: phonenumbers-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/p/phonenumbers/phonenumbers-{{ version }}.tar.gz
-  sha256: df81c483779011aa6f53c73c619723e2840ebb35d1cab01c071833c552b38d61
+  fn: {{ name }}-{{ version }}.{{ compress_type }}
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ compress_type }}
+  {{ hash_type }}: {{ hash_val }}
 
 build:
-  number: 0
+  number: {{ build_num }}
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
@@ -33,7 +38,10 @@ test:
 about:
   home: https://github.com/daviddrysdale/python-phonenumbers
   license: Apache 2.0
+  # license_file: No MANIFEST.in
+  license_family: Apache
   summary: "Python version of Google's common library for parsing, formatting, storing and validating international phone numbers."
+  dev_url: https://github.com/daviddrysdale/python-phonenumbers
 
 extra:
   recipe-maintainers:
