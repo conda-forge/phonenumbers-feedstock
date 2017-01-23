@@ -11,6 +11,18 @@ Summary: Python version of Google's common library for parsing, formatting, stor
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/phonenumbers-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/phonenumbers-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/phonenumbers-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/phonenumbers-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/phonenumbers-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/phonenumbers-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/phonenumbers/badges/version.svg)](https://anaconda.org/conda-forge/phonenumbers)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/phonenumbers/badges/downloads.svg)](https://anaconda.org/conda-forge/phonenumbers)
+
 Installing phonenumbers
 =======================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `phonenumbers` available on your p
 ```
 conda search phonenumbers --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/phonenumbers-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/phonenumbers-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/phonenumbers-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/phonenumbers-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/phonenumbers-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/phonenumbers-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/phonenumbers/badges/version.svg)](https://anaconda.org/conda-forge/phonenumbers)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/phonenumbers/badges/downloads.svg)](https://anaconda.org/conda-forge/phonenumbers)
 
 
 Updating phonenumbers-feedstock
