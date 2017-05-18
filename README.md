@@ -14,9 +14,9 @@ Summary: Python version of Google's common library for parsing, formatting, stor
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/phonenumbers-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/phonenumbers-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/phonenumbers-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/phonenumbers-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/phonenumbers-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/phonenumbers-feedstock/branch/master)
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/tmp97pfluzp-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/tmp97pfluzp-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/tmp97pfluzp-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/tmp97pfluzp-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/tmp97pfluzp-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/tmp97pfluzp-feedstock/branch/master)
 
 Current release info
 ====================
