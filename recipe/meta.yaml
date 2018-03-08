@@ -1,8 +1,8 @@
 {% set name = "phonenumbers" %}
-{% set version = "8.8.9" %}
+{% set version = "8.9.1" %}
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "d819299c3aa8f85f248295ab8559e202af429b4017301b122a0b4c387aed10d2" %}
+{% set hash = "017a5ee3c5741d428c1a72c6aa918d031c0dff8849cbd6eaf4a3a34cd6cbd50d" %}
 {% set build = 0 %}
 
 package:
@@ -16,7 +16,7 @@ source:
 
 build:
   noarch: python
-  number: {{ build }}
+  number: 0
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
