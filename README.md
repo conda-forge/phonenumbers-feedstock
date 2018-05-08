@@ -14,12 +14,15 @@ Summary: Python version of Google's common library for parsing, formatting, stor
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/phonenumbers-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/phonenumbers-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/phonenumbers-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/phonenumbers-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/phonenumbers/badges/version.svg)](https://anaconda.org/conda-forge/phonenumbers)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/phonenumbers/badges/downloads.svg)](https://anaconda.org/conda-forge/phonenumbers)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-phonenumbers-green.svg)](https://anaconda.org/conda-forge/phonenumbers) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/phonenumbers.svg)](https://anaconda.org/conda-forge/phonenumbers) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/phonenumbers.svg)](https://anaconda.org/conda-forge/phonenumbers) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/phonenumbers.svg)](https://anaconda.org/conda-forge/phonenumbers) |
 
 Installing phonenumbers
 =======================
