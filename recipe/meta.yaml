@@ -1,8 +1,8 @@
 {% set name = "phonenumbers" %}
-{% set version = "8.10.14" %}
+{% set version = "8.10.17" %}
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "81757480b3553e9aa8b7442f28fc53e7c8335ef8c99c3b292bcd55b08820aa00" %}
+{% set hash = "e9752dda6abb076d528d954d16c8bc7f8682df6f42c837862d0dea88c7667908" %}
 
 package:
   name: {{ name|lower }}
