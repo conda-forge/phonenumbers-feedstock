@@ -3,7 +3,7 @@ About phonenumbers
 
 Home: https://github.com/daviddrysdale/python-phonenumbers
 
-Package license: Apache 2.0
+Package license: Apache-2.0
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/phonenumbers-feedstock/blob/master/LICENSE.txt)
 
