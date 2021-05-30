@@ -1,25 +1,21 @@
 {% set name = "phonenumbers" %}
-{% set version = "8.10.14" %}
-{% set bundle = "tar.gz" %}
-{% set hash_type = "sha256" %}
-{% set hash = "81757480b3553e9aa8b7442f28fc53e7c8335ef8c99c3b292bcd55b08820aa00" %}
+{% set version = "8.10.18" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.{{ bundle }}
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}
-  {{ hash_type }}: {{ hash }}
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 7da5a432fbe478ca513fe2725349f796b91adbf43efa6a6e67970ff07ce6b2cf
 
 build:
   noarch: python
-  number: 1
-  script: python -m pip install --no-deps --ignore-installed .
+  number: 0
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
-  build:
+  host:
     - python >=3.6
     - pip
 
@@ -34,12 +30,16 @@ test:
     - phonenumbers.geodata
     - phonenumbers.shortdata
     - phonenumbers.tzdata
+  commands:
+    - pip check
+  requires: 
+    - pip
 
 about:
   home: https://github.com/daviddrysdale/python-phonenumbers
   # license_file: No LICENSE in MANIFEST, local copy below
   license_file: '{{ RECIPE_DIR }}/LICENSE'
-  license: Apache 2.0
+  license: Apache-2.0
   license_family: Apache
   summary: "Python version of Google's common library for parsing, formatting, storing and validating international phone numbers."
   dev_url: https://github.com/daviddrysdale/python-phonenumbers
