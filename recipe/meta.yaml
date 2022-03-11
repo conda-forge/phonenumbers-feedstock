@@ -1,5 +1,5 @@
 {% set name = "phonenumbers" %}
-{% set version = "8.12.44" %}
+{% set version = "8.12.45" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 26cfd0257d1704fe2f88caff2caabb70d16a877b1e65b6aae51f9fbbe10aa8ce
+  sha256: 94e30f59b2be6c4310a90f3d5da53d49900bdb440484506f3333c694ebb0cdab
 
 build:
   noarch: python
