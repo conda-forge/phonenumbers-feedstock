@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: phonenumbers
-  version: "9.0.37"
+  version: "9.0.38"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 8923ab413c575b27da2815c9bef48290181aab565398b5e7e23cc7ace212a293
+  sha256: 6806bebd46638af2fc2609675ea046067a40512eca81bf1446132e2fda29d113
 
 build:
   number: 0
